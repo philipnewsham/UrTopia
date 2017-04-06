@@ -1,0 +1,1153 @@
+fileFormatVersion: 2
+guid: a4184d3d21c9adb43b7fd8ae5d63a6e4
+timeCreated: 1460488942
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BLENDSHAPES
+    100002: Body
+    100004: Body_CRV
+    100006: CONTROLLERS
+    100008: //RootNode
+    100010: Feet_Parent_CRV
+    100012: Flight_Controller
+    100014: GEO
+    100016: Head_CRV
+    100018: IK_HANDLES
+    100020: IK_L_Foot_Back
+    100022: IK_L_Foot_Front
+    100024: IK_L_Foot_Mid
+    100026: IK_L_Leg_Back
+    100028: IK_L_Leg_Front
+    100030: IK_L_Leg_Mid
+    100032: IK_Mouth
+    100034: IK_R_Foot_Back
+    100036: IK_R_Foot_Front
+    100038: IK_R_Foot_Mid
+    100040: IK_R_Leg_Back
+    100042: IK_R_Leg_Front
+    100044: IK_R_Leg_Mid
+    100046: L_Back_Foot_Ball
+    100048: L_Back_Foot_Toe
+    100050: L_Back_Leg_Ankle
+    100052: L_Back_Leg_Hip
+    100054: L_Back_Leg_Knee
+    100056: L_Eye
+    100058: L_Foot_Back
+    100060: L_Foot_Back_CRV
+    100062: L_Foot_Front_CRV
+    100064: L_Foot_Mid
+    100066: L_Foot_Mid_CRV
+    100068: L_Front_Foot
+    100070: L_Front_Foot_Ball
+    100072: L_Front_Foot_Toe
+    100074: L_Front_Leg
+    100076: L_Front_Leg_Ankle
+    100078: L_Front_Leg_Hip
+    100080: L_Front_Leg_Knee
+    100082: L_Leg_Back
+    100084: L_Leg_Mid
+    100086: L_Mid_Foot_Ball
+    100088: L_Mid_Foot_Toe
+    100090: L_Mid_Leg_Ankle
+    100092: L_Mid_Leg_Hip
+    100094: L_Mid_Leg_Knee
+    100096: L_Wing
+    100098: Mouth
+    100100: Mouth_a
+    100102: Mouth_A_Driver
+    100104: Mouth_b
+    100106: Mouth_B_Driver
+    100108: Mouth_c
+    100110: Mouth_CRV
+    100112: Mouth_d
+    100114: Mouth_Driver_CRV
+    100116: Mouth_e
+    100118: Mouth_f
+    100120: Mouth_g
+    100122: MouthRoot
+    100124: R_Back_Foot_Ball
+    100126: R_Back_Foot_Toe
+    100128: R_Back_Leg_Ankle
+    100130: R_Back_Leg_Hip
+    100132: R_Back_Leg_Knee
+    100134: R_Eye
+    100136: R_Foot_Back
+    100138: R_Foot_Back_CRV
+    100140: R_Foot_Front
+    100142: R_Foot_Front_CRV
+    100144: R_Foot_Mid
+    100146: R_Foot_Mid_CRV
+    100148: R_Front_Foot_Ball
+    100150: R_Front_Foot_Toe
+    100152: R_Front_Leg_Ankle
+    100154: R_Front_Leg_Hip
+    100156: R_Front_Leg_Knee
+    100158: R_Leg_Back
+    100160: R_Leg_Front
+    100162: R_Leg_Mid
+    100164: R_Mid_Foot_Ball
+    100166: R_Mid_Foot_Toe
+    100168: R_Mid_Leg_Ankle
+    100170: R_Mid_Leg_Hip
+    100172: R_Mid_Leg_Knee
+    100174: R_Wing
+    100176: R_Wing_Upper_Blend
+    100178: R_Wing_UpperMid_Blend
+    100180: RIG
+    100182: ROOT
+    400000: BLENDSHAPES
+    400002: Body
+    400004: Body_CRV
+    400006: CONTROLLERS
+    400008: //RootNode
+    400010: Feet_Parent_CRV
+    400012: Flight_Controller
+    400014: GEO
+    400016: Head_CRV
+    400018: IK_HANDLES
+    400020: IK_L_Foot_Back
+    400022: IK_L_Foot_Front
+    400024: IK_L_Foot_Mid
+    400026: IK_L_Leg_Back
+    400028: IK_L_Leg_Front
+    400030: IK_L_Leg_Mid
+    400032: IK_Mouth
+    400034: IK_R_Foot_Back
+    400036: IK_R_Foot_Front
+    400038: IK_R_Foot_Mid
+    400040: IK_R_Leg_Back
+    400042: IK_R_Leg_Front
+    400044: IK_R_Leg_Mid
+    400046: L_Back_Foot_Ball
+    400048: L_Back_Foot_Toe
+    400050: L_Back_Leg_Ankle
+    400052: L_Back_Leg_Hip
+    400054: L_Back_Leg_Knee
+    400056: L_Eye
+    400058: L_Foot_Back
+    400060: L_Foot_Back_CRV
+    400062: L_Foot_Front_CRV
+    400064: L_Foot_Mid
+    400066: L_Foot_Mid_CRV
+    400068: L_Front_Foot
+    400070: L_Front_Foot_Ball
+    400072: L_Front_Foot_Toe
+    400074: L_Front_Leg
+    400076: L_Front_Leg_Ankle
+    400078: L_Front_Leg_Hip
+    400080: L_Front_Leg_Knee
+    400082: L_Leg_Back
+    400084: L_Leg_Mid
+    400086: L_Mid_Foot_Ball
+    400088: L_Mid_Foot_Toe
+    400090: L_Mid_Leg_Ankle
+    400092: L_Mid_Leg_Hip
+    400094: L_Mid_Leg_Knee
+    400096: L_Wing
+    400098: Mouth
+    400100: Mouth_a
+    400102: Mouth_A_Driver
+    400104: Mouth_b
+    400106: Mouth_B_Driver
+    400108: Mouth_c
+    400110: Mouth_CRV
+    400112: Mouth_d
+    400114: Mouth_Driver_CRV
+    400116: Mouth_e
+    400118: Mouth_f
+    400120: Mouth_g
+    400122: MouthRoot
+    400124: R_Back_Foot_Ball
+    400126: R_Back_Foot_Toe
+    400128: R_Back_Leg_Ankle
+    400130: R_Back_Leg_Hip
+    400132: R_Back_Leg_Knee
+    400134: R_Eye
+    400136: R_Foot_Back
+    400138: R_Foot_Back_CRV
+    400140: R_Foot_Front
+    400142: R_Foot_Front_CRV
+    400144: R_Foot_Mid
+    400146: R_Foot_Mid_CRV
+    400148: R_Front_Foot_Ball
+    400150: R_Front_Foot_Toe
+    400152: R_Front_Leg_Ankle
+    400154: R_Front_Leg_Hip
+    400156: R_Front_Leg_Knee
+    400158: R_Leg_Back
+    400160: R_Leg_Front
+    400162: R_Leg_Mid
+    400164: R_Mid_Foot_Ball
+    400166: R_Mid_Foot_Toe
+    400168: R_Mid_Leg_Ankle
+    400170: R_Mid_Leg_Hip
+    400172: R_Mid_Leg_Knee
+    400174: R_Wing
+    400176: R_Wing_Upper_Blend
+    400178: R_Wing_UpperMid_Blend
+    400180: RIG
+    400182: ROOT
+    2300000: Body
+    2300002: L_Eye
+    2300004: R_Eye
+    2300006: R_Wing_Upper_Blend
+    2300008: R_Wing_UpperMid_Blend
+    3300000: Body
+    3300002: L_Eye
+    3300004: R_Eye
+    3300006: R_Wing_Upper_Blend
+    3300008: R_Wing_UpperMid_Blend
+    4300000: Body
+    4300002: Mouth
+    4300004: L_Wing
+    4300006: R_Wing
+    4300008: R_Eye
+    4300010: L_Eye
+    4300012: L_Front_Leg
+    4300014: L_Leg_Mid
+    4300016: L_Leg_Back
+    4300018: R_Leg_Front
+    4300020: R_Leg_Mid
+    4300022: R_Leg_Back
+    4300024: R_Foot_Front
+    4300026: R_Foot_Mid
+    4300028: R_Foot_Back
+    4300030: L_Foot_Back
+    4300032: L_Foot_Mid
+    4300034: L_Front_Foot
+    4300036: R_Wing_UpperMid_Blend
+    4300038: R_Wing_Upper_Blend
+    7400000: Idle
+    7400002: Take Off
+    7400004: Landing
+    7400006: Flying
+    9500000: //RootNode
+    13700000: L_Foot_Back
+    13700002: L_Foot_Mid
+    13700004: L_Front_Foot
+    13700006: L_Front_Leg
+    13700008: L_Leg_Back
+    13700010: L_Leg_Mid
+    13700012: L_Wing
+    13700014: Mouth
+    13700016: R_Foot_Back
+    13700018: R_Foot_Front
+    13700020: R_Foot_Mid
+    13700022: R_Leg_Back
+    13700024: R_Leg_Front
+    13700026: R_Leg_Mid
+    13700028: R_Wing
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BLENDSHAPES
+        weight: 1
+      - path: BLENDSHAPES/R_Wing_Upper_Blend
+        weight: 1
+      - path: BLENDSHAPES/R_Wing_UpperMid_Blend
+        weight: 1
+      - path: CONTROLLERS
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Body_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV/L_Foot_Back_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV/L_Foot_Front_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV/L_Foot_Mid_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV/R_Foot_Back_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV/R_Foot_Front_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV/R_Foot_Mid_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Head_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Mouth_Driver_CRV
+        weight: 1
+      - path: GEO
+        weight: 1
+      - path: GEO/Body
+        weight: 1
+      - path: GEO/L_Eye
+        weight: 1
+      - path: GEO/L_Foot_Back
+        weight: 1
+      - path: GEO/L_Foot_Mid
+        weight: 1
+      - path: GEO/L_Front_Foot
+        weight: 1
+      - path: GEO/L_Front_Leg
+        weight: 1
+      - path: GEO/L_Leg_Back
+        weight: 1
+      - path: GEO/L_Leg_Mid
+        weight: 1
+      - path: GEO/L_Wing
+        weight: 1
+      - path: GEO/Mouth
+        weight: 1
+      - path: GEO/R_Eye
+        weight: 1
+      - path: GEO/R_Foot_Back
+        weight: 1
+      - path: GEO/R_Foot_Front
+        weight: 1
+      - path: GEO/R_Foot_Mid
+        weight: 1
+      - path: GEO/R_Leg_Back
+        weight: 1
+      - path: GEO/R_Leg_Front
+        weight: 1
+      - path: GEO/R_Leg_Mid
+        weight: 1
+      - path: GEO/R_Wing
+        weight: 1
+      - path: RIG
+        weight: 1
+      - path: RIG/IK_HANDLES
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_L_Foot_Back
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_L_Foot_Front
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_L_Foot_Mid
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_L_Leg_Back
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_L_Leg_Front
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_L_Leg_Mid
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_Mouth
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_R_Foot_Back
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_R_Foot_Front
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_R_Foot_Mid
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_R_Leg_Back
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_R_Leg_Front
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_R_Leg_Mid
+        weight: 1
+      - path: RIG/Mouth_A_Driver
+        weight: 1
+      - path: RIG/Mouth_B_Driver
+        weight: 1
+      - path: RIG/Mouth_CRV
+        weight: 1
+      - path: RIG/ROOT
+        weight: 1
+      - path: RIG/ROOT/L_Back_Leg_Hip
+        weight: 1
+      - path: RIG/ROOT/L_Back_Leg_Hip/L_Back_Leg_Knee
+        weight: 1
+      - path: RIG/ROOT/L_Back_Leg_Hip/L_Back_Leg_Knee/L_Back_Leg_Ankle
+        weight: 1
+      - path: RIG/ROOT/L_Back_Leg_Hip/L_Back_Leg_Knee/L_Back_Leg_Ankle/L_Back_Foot_Ball
+        weight: 1
+      - path: RIG/ROOT/L_Back_Leg_Hip/L_Back_Leg_Knee/L_Back_Leg_Ankle/L_Back_Foot_Ball/L_Back_Foot_Toe
+        weight: 1
+      - path: RIG/ROOT/L_Front_Leg_Hip
+        weight: 1
+      - path: RIG/ROOT/L_Front_Leg_Hip/L_Front_Leg_Knee
+        weight: 1
+      - path: RIG/ROOT/L_Front_Leg_Hip/L_Front_Leg_Knee/L_Front_Leg_Ankle
+        weight: 1
+      - path: RIG/ROOT/L_Front_Leg_Hip/L_Front_Leg_Knee/L_Front_Leg_Ankle/L_Front_Foot_Ball
+        weight: 1
+      - path: RIG/ROOT/L_Front_Leg_Hip/L_Front_Leg_Knee/L_Front_Leg_Ankle/L_Front_Foot_Ball/L_Front_Foot_Toe
+        weight: 1
+      - path: RIG/ROOT/L_Mid_Leg_Hip
+        weight: 1
+      - path: RIG/ROOT/L_Mid_Leg_Hip/L_Mid_Leg_Knee
+        weight: 1
+      - path: RIG/ROOT/L_Mid_Leg_Hip/L_Mid_Leg_Knee/L_Mid_Leg_Ankle
+        weight: 1
+      - path: RIG/ROOT/L_Mid_Leg_Hip/L_Mid_Leg_Knee/L_Mid_Leg_Ankle/L_Mid_Foot_Ball
+        weight: 1
+      - path: RIG/ROOT/L_Mid_Leg_Hip/L_Mid_Leg_Knee/L_Mid_Leg_Ankle/L_Mid_Foot_Ball/L_Mid_Foot_Toe
+        weight: 1
+      - path: RIG/ROOT/MouthRoot
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a/Mouth_b
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a/Mouth_b/Mouth_c
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a/Mouth_b/Mouth_c/Mouth_d
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a/Mouth_b/Mouth_c/Mouth_d/Mouth_e
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a/Mouth_b/Mouth_c/Mouth_d/Mouth_e/Mouth_f
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a/Mouth_b/Mouth_c/Mouth_d/Mouth_e/Mouth_f/Mouth_g
+        weight: 1
+      - path: RIG/ROOT/R_Back_Leg_Hip
+        weight: 1
+      - path: RIG/ROOT/R_Back_Leg_Hip/R_Back_Leg_Knee
+        weight: 1
+      - path: RIG/ROOT/R_Back_Leg_Hip/R_Back_Leg_Knee/R_Back_Leg_Ankle
+        weight: 1
+      - path: RIG/ROOT/R_Back_Leg_Hip/R_Back_Leg_Knee/R_Back_Leg_Ankle/R_Back_Foot_Ball
+        weight: 1
+      - path: RIG/ROOT/R_Back_Leg_Hip/R_Back_Leg_Knee/R_Back_Leg_Ankle/R_Back_Foot_Ball/R_Back_Foot_Toe
+        weight: 1
+      - path: RIG/ROOT/R_Front_Leg_Hip
+        weight: 1
+      - path: RIG/ROOT/R_Front_Leg_Hip/R_Front_Leg_Knee
+        weight: 1
+      - path: RIG/ROOT/R_Front_Leg_Hip/R_Front_Leg_Knee/R_Front_Leg_Ankle
+        weight: 1
+      - path: RIG/ROOT/R_Front_Leg_Hip/R_Front_Leg_Knee/R_Front_Leg_Ankle/R_Front_Foot_Ball
+        weight: 1
+      - path: RIG/ROOT/R_Front_Leg_Hip/R_Front_Leg_Knee/R_Front_Leg_Ankle/R_Front_Foot_Ball/R_Front_Foot_Toe
+        weight: 1
+      - path: RIG/ROOT/R_Mid_Leg_Hip
+        weight: 1
+      - path: RIG/ROOT/R_Mid_Leg_Hip/R_Mid_Leg_Knee
+        weight: 1
+      - path: RIG/ROOT/R_Mid_Leg_Hip/R_Mid_Leg_Knee/R_Mid_Leg_Ankle
+        weight: 1
+      - path: RIG/ROOT/R_Mid_Leg_Hip/R_Mid_Leg_Knee/R_Mid_Leg_Ankle/R_Mid_Foot_Ball
+        weight: 1
+      - path: RIG/ROOT/R_Mid_Leg_Hip/R_Mid_Leg_Knee/R_Mid_Leg_Ankle/R_Mid_Foot_Ball/R_Mid_Foot_Toe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Take Off
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BLENDSHAPES
+        weight: 1
+      - path: BLENDSHAPES/R_Wing_Upper_Blend
+        weight: 1
+      - path: BLENDSHAPES/R_Wing_UpperMid_Blend
+        weight: 1
+      - path: CONTROLLERS
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Body_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV/L_Foot_Back_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV/L_Foot_Front_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV/L_Foot_Mid_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV/R_Foot_Back_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV/R_Foot_Front_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV/R_Foot_Mid_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Head_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Mouth_Driver_CRV
+        weight: 1
+      - path: GEO
+        weight: 1
+      - path: GEO/Body
+        weight: 1
+      - path: GEO/L_Eye
+        weight: 1
+      - path: GEO/L_Foot_Back
+        weight: 1
+      - path: GEO/L_Foot_Mid
+        weight: 1
+      - path: GEO/L_Front_Foot
+        weight: 1
+      - path: GEO/L_Front_Leg
+        weight: 1
+      - path: GEO/L_Leg_Back
+        weight: 1
+      - path: GEO/L_Leg_Mid
+        weight: 1
+      - path: GEO/L_Wing
+        weight: 1
+      - path: GEO/Mouth
+        weight: 1
+      - path: GEO/R_Eye
+        weight: 1
+      - path: GEO/R_Foot_Back
+        weight: 1
+      - path: GEO/R_Foot_Front
+        weight: 1
+      - path: GEO/R_Foot_Mid
+        weight: 1
+      - path: GEO/R_Leg_Back
+        weight: 1
+      - path: GEO/R_Leg_Front
+        weight: 1
+      - path: GEO/R_Leg_Mid
+        weight: 1
+      - path: GEO/R_Wing
+        weight: 1
+      - path: RIG
+        weight: 1
+      - path: RIG/IK_HANDLES
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_L_Foot_Back
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_L_Foot_Front
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_L_Foot_Mid
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_L_Leg_Back
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_L_Leg_Front
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_L_Leg_Mid
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_Mouth
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_R_Foot_Back
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_R_Foot_Front
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_R_Foot_Mid
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_R_Leg_Back
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_R_Leg_Front
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_R_Leg_Mid
+        weight: 1
+      - path: RIG/Mouth_A_Driver
+        weight: 1
+      - path: RIG/Mouth_B_Driver
+        weight: 1
+      - path: RIG/Mouth_CRV
+        weight: 1
+      - path: RIG/ROOT
+        weight: 1
+      - path: RIG/ROOT/L_Back_Leg_Hip
+        weight: 1
+      - path: RIG/ROOT/L_Back_Leg_Hip/L_Back_Leg_Knee
+        weight: 1
+      - path: RIG/ROOT/L_Back_Leg_Hip/L_Back_Leg_Knee/L_Back_Leg_Ankle
+        weight: 1
+      - path: RIG/ROOT/L_Back_Leg_Hip/L_Back_Leg_Knee/L_Back_Leg_Ankle/L_Back_Foot_Ball
+        weight: 1
+      - path: RIG/ROOT/L_Back_Leg_Hip/L_Back_Leg_Knee/L_Back_Leg_Ankle/L_Back_Foot_Ball/L_Back_Foot_Toe
+        weight: 1
+      - path: RIG/ROOT/L_Front_Leg_Hip
+        weight: 1
+      - path: RIG/ROOT/L_Front_Leg_Hip/L_Front_Leg_Knee
+        weight: 1
+      - path: RIG/ROOT/L_Front_Leg_Hip/L_Front_Leg_Knee/L_Front_Leg_Ankle
+        weight: 1
+      - path: RIG/ROOT/L_Front_Leg_Hip/L_Front_Leg_Knee/L_Front_Leg_Ankle/L_Front_Foot_Ball
+        weight: 1
+      - path: RIG/ROOT/L_Front_Leg_Hip/L_Front_Leg_Knee/L_Front_Leg_Ankle/L_Front_Foot_Ball/L_Front_Foot_Toe
+        weight: 1
+      - path: RIG/ROOT/L_Mid_Leg_Hip
+        weight: 1
+      - path: RIG/ROOT/L_Mid_Leg_Hip/L_Mid_Leg_Knee
+        weight: 1
+      - path: RIG/ROOT/L_Mid_Leg_Hip/L_Mid_Leg_Knee/L_Mid_Leg_Ankle
+        weight: 1
+      - path: RIG/ROOT/L_Mid_Leg_Hip/L_Mid_Leg_Knee/L_Mid_Leg_Ankle/L_Mid_Foot_Ball
+        weight: 1
+      - path: RIG/ROOT/L_Mid_Leg_Hip/L_Mid_Leg_Knee/L_Mid_Leg_Ankle/L_Mid_Foot_Ball/L_Mid_Foot_Toe
+        weight: 1
+      - path: RIG/ROOT/MouthRoot
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a/Mouth_b
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a/Mouth_b/Mouth_c
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a/Mouth_b/Mouth_c/Mouth_d
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a/Mouth_b/Mouth_c/Mouth_d/Mouth_e
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a/Mouth_b/Mouth_c/Mouth_d/Mouth_e/Mouth_f
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a/Mouth_b/Mouth_c/Mouth_d/Mouth_e/Mouth_f/Mouth_g
+        weight: 1
+      - path: RIG/ROOT/R_Back_Leg_Hip
+        weight: 1
+      - path: RIG/ROOT/R_Back_Leg_Hip/R_Back_Leg_Knee
+        weight: 1
+      - path: RIG/ROOT/R_Back_Leg_Hip/R_Back_Leg_Knee/R_Back_Leg_Ankle
+        weight: 1
+      - path: RIG/ROOT/R_Back_Leg_Hip/R_Back_Leg_Knee/R_Back_Leg_Ankle/R_Back_Foot_Ball
+        weight: 1
+      - path: RIG/ROOT/R_Back_Leg_Hip/R_Back_Leg_Knee/R_Back_Leg_Ankle/R_Back_Foot_Ball/R_Back_Foot_Toe
+        weight: 1
+      - path: RIG/ROOT/R_Front_Leg_Hip
+        weight: 1
+      - path: RIG/ROOT/R_Front_Leg_Hip/R_Front_Leg_Knee
+        weight: 1
+      - path: RIG/ROOT/R_Front_Leg_Hip/R_Front_Leg_Knee/R_Front_Leg_Ankle
+        weight: 1
+      - path: RIG/ROOT/R_Front_Leg_Hip/R_Front_Leg_Knee/R_Front_Leg_Ankle/R_Front_Foot_Ball
+        weight: 1
+      - path: RIG/ROOT/R_Front_Leg_Hip/R_Front_Leg_Knee/R_Front_Leg_Ankle/R_Front_Foot_Ball/R_Front_Foot_Toe
+        weight: 1
+      - path: RIG/ROOT/R_Mid_Leg_Hip
+        weight: 1
+      - path: RIG/ROOT/R_Mid_Leg_Hip/R_Mid_Leg_Knee
+        weight: 1
+      - path: RIG/ROOT/R_Mid_Leg_Hip/R_Mid_Leg_Knee/R_Mid_Leg_Ankle
+        weight: 1
+      - path: RIG/ROOT/R_Mid_Leg_Hip/R_Mid_Leg_Knee/R_Mid_Leg_Ankle/R_Mid_Foot_Ball
+        weight: 1
+      - path: RIG/ROOT/R_Mid_Leg_Hip/R_Mid_Leg_Knee/R_Mid_Leg_Ankle/R_Mid_Foot_Ball/R_Mid_Foot_Toe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Flying
+      takeName: Take 001
+      firstFrame: 125
+      lastFrame: 175
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BLENDSHAPES
+        weight: 1
+      - path: BLENDSHAPES/R_Wing_Upper_Blend
+        weight: 1
+      - path: BLENDSHAPES/R_Wing_UpperMid_Blend
+        weight: 1
+      - path: CONTROLLERS
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Body_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV/L_Foot_Back_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV/L_Foot_Front_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV/L_Foot_Mid_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV/R_Foot_Back_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV/R_Foot_Front_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV/R_Foot_Mid_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Head_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Mouth_Driver_CRV
+        weight: 1
+      - path: GEO
+        weight: 1
+      - path: GEO/Body
+        weight: 1
+      - path: GEO/L_Eye
+        weight: 1
+      - path: GEO/L_Foot_Back
+        weight: 1
+      - path: GEO/L_Foot_Mid
+        weight: 1
+      - path: GEO/L_Front_Foot
+        weight: 1
+      - path: GEO/L_Front_Leg
+        weight: 1
+      - path: GEO/L_Leg_Back
+        weight: 1
+      - path: GEO/L_Leg_Mid
+        weight: 1
+      - path: GEO/L_Wing
+        weight: 1
+      - path: GEO/Mouth
+        weight: 1
+      - path: GEO/R_Eye
+        weight: 1
+      - path: GEO/R_Foot_Back
+        weight: 1
+      - path: GEO/R_Foot_Front
+        weight: 1
+      - path: GEO/R_Foot_Mid
+        weight: 1
+      - path: GEO/R_Leg_Back
+        weight: 1
+      - path: GEO/R_Leg_Front
+        weight: 1
+      - path: GEO/R_Leg_Mid
+        weight: 1
+      - path: GEO/R_Wing
+        weight: 1
+      - path: RIG
+        weight: 1
+      - path: RIG/IK_HANDLES
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_L_Foot_Back
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_L_Foot_Front
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_L_Foot_Mid
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_L_Leg_Back
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_L_Leg_Front
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_L_Leg_Mid
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_Mouth
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_R_Foot_Back
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_R_Foot_Front
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_R_Foot_Mid
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_R_Leg_Back
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_R_Leg_Front
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_R_Leg_Mid
+        weight: 1
+      - path: RIG/Mouth_A_Driver
+        weight: 1
+      - path: RIG/Mouth_B_Driver
+        weight: 1
+      - path: RIG/Mouth_CRV
+        weight: 1
+      - path: RIG/ROOT
+        weight: 1
+      - path: RIG/ROOT/L_Back_Leg_Hip
+        weight: 1
+      - path: RIG/ROOT/L_Back_Leg_Hip/L_Back_Leg_Knee
+        weight: 1
+      - path: RIG/ROOT/L_Back_Leg_Hip/L_Back_Leg_Knee/L_Back_Leg_Ankle
+        weight: 1
+      - path: RIG/ROOT/L_Back_Leg_Hip/L_Back_Leg_Knee/L_Back_Leg_Ankle/L_Back_Foot_Ball
+        weight: 1
+      - path: RIG/ROOT/L_Back_Leg_Hip/L_Back_Leg_Knee/L_Back_Leg_Ankle/L_Back_Foot_Ball/L_Back_Foot_Toe
+        weight: 1
+      - path: RIG/ROOT/L_Front_Leg_Hip
+        weight: 1
+      - path: RIG/ROOT/L_Front_Leg_Hip/L_Front_Leg_Knee
+        weight: 1
+      - path: RIG/ROOT/L_Front_Leg_Hip/L_Front_Leg_Knee/L_Front_Leg_Ankle
+        weight: 1
+      - path: RIG/ROOT/L_Front_Leg_Hip/L_Front_Leg_Knee/L_Front_Leg_Ankle/L_Front_Foot_Ball
+        weight: 1
+      - path: RIG/ROOT/L_Front_Leg_Hip/L_Front_Leg_Knee/L_Front_Leg_Ankle/L_Front_Foot_Ball/L_Front_Foot_Toe
+        weight: 1
+      - path: RIG/ROOT/L_Mid_Leg_Hip
+        weight: 1
+      - path: RIG/ROOT/L_Mid_Leg_Hip/L_Mid_Leg_Knee
+        weight: 1
+      - path: RIG/ROOT/L_Mid_Leg_Hip/L_Mid_Leg_Knee/L_Mid_Leg_Ankle
+        weight: 1
+      - path: RIG/ROOT/L_Mid_Leg_Hip/L_Mid_Leg_Knee/L_Mid_Leg_Ankle/L_Mid_Foot_Ball
+        weight: 1
+      - path: RIG/ROOT/L_Mid_Leg_Hip/L_Mid_Leg_Knee/L_Mid_Leg_Ankle/L_Mid_Foot_Ball/L_Mid_Foot_Toe
+        weight: 1
+      - path: RIG/ROOT/MouthRoot
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a/Mouth_b
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a/Mouth_b/Mouth_c
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a/Mouth_b/Mouth_c/Mouth_d
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a/Mouth_b/Mouth_c/Mouth_d/Mouth_e
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a/Mouth_b/Mouth_c/Mouth_d/Mouth_e/Mouth_f
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a/Mouth_b/Mouth_c/Mouth_d/Mouth_e/Mouth_f/Mouth_g
+        weight: 1
+      - path: RIG/ROOT/R_Back_Leg_Hip
+        weight: 1
+      - path: RIG/ROOT/R_Back_Leg_Hip/R_Back_Leg_Knee
+        weight: 1
+      - path: RIG/ROOT/R_Back_Leg_Hip/R_Back_Leg_Knee/R_Back_Leg_Ankle
+        weight: 1
+      - path: RIG/ROOT/R_Back_Leg_Hip/R_Back_Leg_Knee/R_Back_Leg_Ankle/R_Back_Foot_Ball
+        weight: 1
+      - path: RIG/ROOT/R_Back_Leg_Hip/R_Back_Leg_Knee/R_Back_Leg_Ankle/R_Back_Foot_Ball/R_Back_Foot_Toe
+        weight: 1
+      - path: RIG/ROOT/R_Front_Leg_Hip
+        weight: 1
+      - path: RIG/ROOT/R_Front_Leg_Hip/R_Front_Leg_Knee
+        weight: 1
+      - path: RIG/ROOT/R_Front_Leg_Hip/R_Front_Leg_Knee/R_Front_Leg_Ankle
+        weight: 1
+      - path: RIG/ROOT/R_Front_Leg_Hip/R_Front_Leg_Knee/R_Front_Leg_Ankle/R_Front_Foot_Ball
+        weight: 1
+      - path: RIG/ROOT/R_Front_Leg_Hip/R_Front_Leg_Knee/R_Front_Leg_Ankle/R_Front_Foot_Ball/R_Front_Foot_Toe
+        weight: 1
+      - path: RIG/ROOT/R_Mid_Leg_Hip
+        weight: 1
+      - path: RIG/ROOT/R_Mid_Leg_Hip/R_Mid_Leg_Knee
+        weight: 1
+      - path: RIG/ROOT/R_Mid_Leg_Hip/R_Mid_Leg_Knee/R_Mid_Leg_Ankle
+        weight: 1
+      - path: RIG/ROOT/R_Mid_Leg_Hip/R_Mid_Leg_Knee/R_Mid_Leg_Ankle/R_Mid_Foot_Ball
+        weight: 1
+      - path: RIG/ROOT/R_Mid_Leg_Hip/R_Mid_Leg_Knee/R_Mid_Leg_Ankle/R_Mid_Foot_Ball/R_Mid_Foot_Toe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Landing
+      takeName: Take 001
+      firstFrame: 175
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BLENDSHAPES
+        weight: 1
+      - path: BLENDSHAPES/R_Wing_Upper_Blend
+        weight: 1
+      - path: BLENDSHAPES/R_Wing_UpperMid_Blend
+        weight: 1
+      - path: CONTROLLERS
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Body_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV/L_Foot_Back_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV/L_Foot_Front_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV/L_Foot_Mid_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV/R_Foot_Back_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV/R_Foot_Front_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Feet_Parent_CRV/R_Foot_Mid_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Head_CRV
+        weight: 1
+      - path: CONTROLLERS/Flight_Controller/Mouth_Driver_CRV
+        weight: 1
+      - path: GEO
+        weight: 1
+      - path: GEO/Body
+        weight: 1
+      - path: GEO/L_Eye
+        weight: 1
+      - path: GEO/L_Foot_Back
+        weight: 1
+      - path: GEO/L_Foot_Mid
+        weight: 1
+      - path: GEO/L_Front_Foot
+        weight: 1
+      - path: GEO/L_Front_Leg
+        weight: 1
+      - path: GEO/L_Leg_Back
+        weight: 1
+      - path: GEO/L_Leg_Mid
+        weight: 1
+      - path: GEO/L_Wing
+        weight: 1
+      - path: GEO/Mouth
+        weight: 1
+      - path: GEO/R_Eye
+        weight: 1
+      - path: GEO/R_Foot_Back
+        weight: 1
+      - path: GEO/R_Foot_Front
+        weight: 1
+      - path: GEO/R_Foot_Mid
+        weight: 1
+      - path: GEO/R_Leg_Back
+        weight: 1
+      - path: GEO/R_Leg_Front
+        weight: 1
+      - path: GEO/R_Leg_Mid
+        weight: 1
+      - path: GEO/R_Wing
+        weight: 1
+      - path: RIG
+        weight: 1
+      - path: RIG/IK_HANDLES
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_L_Foot_Back
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_L_Foot_Front
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_L_Foot_Mid
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_L_Leg_Back
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_L_Leg_Front
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_L_Leg_Mid
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_Mouth
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_R_Foot_Back
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_R_Foot_Front
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_R_Foot_Mid
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_R_Leg_Back
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_R_Leg_Front
+        weight: 1
+      - path: RIG/IK_HANDLES/IK_R_Leg_Mid
+        weight: 1
+      - path: RIG/Mouth_A_Driver
+        weight: 1
+      - path: RIG/Mouth_B_Driver
+        weight: 1
+      - path: RIG/Mouth_CRV
+        weight: 1
+      - path: RIG/ROOT
+        weight: 1
+      - path: RIG/ROOT/L_Back_Leg_Hip
+        weight: 1
+      - path: RIG/ROOT/L_Back_Leg_Hip/L_Back_Leg_Knee
+        weight: 1
+      - path: RIG/ROOT/L_Back_Leg_Hip/L_Back_Leg_Knee/L_Back_Leg_Ankle
+        weight: 1
+      - path: RIG/ROOT/L_Back_Leg_Hip/L_Back_Leg_Knee/L_Back_Leg_Ankle/L_Back_Foot_Ball
+        weight: 1
+      - path: RIG/ROOT/L_Back_Leg_Hip/L_Back_Leg_Knee/L_Back_Leg_Ankle/L_Back_Foot_Ball/L_Back_Foot_Toe
+        weight: 1
+      - path: RIG/ROOT/L_Front_Leg_Hip
+        weight: 1
+      - path: RIG/ROOT/L_Front_Leg_Hip/L_Front_Leg_Knee
+        weight: 1
+      - path: RIG/ROOT/L_Front_Leg_Hip/L_Front_Leg_Knee/L_Front_Leg_Ankle
+        weight: 1
+      - path: RIG/ROOT/L_Front_Leg_Hip/L_Front_Leg_Knee/L_Front_Leg_Ankle/L_Front_Foot_Ball
+        weight: 1
+      - path: RIG/ROOT/L_Front_Leg_Hip/L_Front_Leg_Knee/L_Front_Leg_Ankle/L_Front_Foot_Ball/L_Front_Foot_Toe
+        weight: 1
+      - path: RIG/ROOT/L_Mid_Leg_Hip
+        weight: 1
+      - path: RIG/ROOT/L_Mid_Leg_Hip/L_Mid_Leg_Knee
+        weight: 1
+      - path: RIG/ROOT/L_Mid_Leg_Hip/L_Mid_Leg_Knee/L_Mid_Leg_Ankle
+        weight: 1
+      - path: RIG/ROOT/L_Mid_Leg_Hip/L_Mid_Leg_Knee/L_Mid_Leg_Ankle/L_Mid_Foot_Ball
+        weight: 1
+      - path: RIG/ROOT/L_Mid_Leg_Hip/L_Mid_Leg_Knee/L_Mid_Leg_Ankle/L_Mid_Foot_Ball/L_Mid_Foot_Toe
+        weight: 1
+      - path: RIG/ROOT/MouthRoot
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a/Mouth_b
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a/Mouth_b/Mouth_c
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a/Mouth_b/Mouth_c/Mouth_d
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a/Mouth_b/Mouth_c/Mouth_d/Mouth_e
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a/Mouth_b/Mouth_c/Mouth_d/Mouth_e/Mouth_f
+        weight: 1
+      - path: RIG/ROOT/MouthRoot/Mouth_a/Mouth_b/Mouth_c/Mouth_d/Mouth_e/Mouth_f/Mouth_g
+        weight: 1
+      - path: RIG/ROOT/R_Back_Leg_Hip
+        weight: 1
+      - path: RIG/ROOT/R_Back_Leg_Hip/R_Back_Leg_Knee
+        weight: 1
+      - path: RIG/ROOT/R_Back_Leg_Hip/R_Back_Leg_Knee/R_Back_Leg_Ankle
+        weight: 1
+      - path: RIG/ROOT/R_Back_Leg_Hip/R_Back_Leg_Knee/R_Back_Leg_Ankle/R_Back_Foot_Ball
+        weight: 1
+      - path: RIG/ROOT/R_Back_Leg_Hip/R_Back_Leg_Knee/R_Back_Leg_Ankle/R_Back_Foot_Ball/R_Back_Foot_Toe
+        weight: 1
+      - path: RIG/ROOT/R_Front_Leg_Hip
+        weight: 1
+      - path: RIG/ROOT/R_Front_Leg_Hip/R_Front_Leg_Knee
+        weight: 1
+      - path: RIG/ROOT/R_Front_Leg_Hip/R_Front_Leg_Knee/R_Front_Leg_Ankle
+        weight: 1
+      - path: RIG/ROOT/R_Front_Leg_Hip/R_Front_Leg_Knee/R_Front_Leg_Ankle/R_Front_Foot_Ball
+        weight: 1
+      - path: RIG/ROOT/R_Front_Leg_Hip/R_Front_Leg_Knee/R_Front_Leg_Ankle/R_Front_Foot_Ball/R_Front_Foot_Toe
+        weight: 1
+      - path: RIG/ROOT/R_Mid_Leg_Hip
+        weight: 1
+      - path: RIG/ROOT/R_Mid_Leg_Hip/R_Mid_Leg_Knee
+        weight: 1
+      - path: RIG/ROOT/R_Mid_Leg_Hip/R_Mid_Leg_Knee/R_Mid_Leg_Ankle
+        weight: 1
+      - path: RIG/ROOT/R_Mid_Leg_Hip/R_Mid_Leg_Knee/R_Mid_Leg_Ankle/R_Mid_Foot_Ball
+        weight: 1
+      - path: RIG/ROOT/R_Mid_Leg_Hip/R_Mid_Leg_Knee/R_Mid_Leg_Ankle/R_Mid_Foot_Ball/R_Mid_Foot_Toe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
